@@ -38,6 +38,9 @@ all:
     join:
       name  : "Liitu"
       url   : "/join/"
+    blog:
+      name  : "Blogi"
+      url   : "/blog/"
 
   en:
     home:
@@ -78,6 +81,9 @@ all:
     join:
       name  : "Join"
       url   : "/en/join/"
+    blog:
+      name  : "Blog"
+      url   : "/en/blog/"
 
 
 # For iterating through and populating navbar
@@ -98,6 +104,9 @@ nav:
     aboutus:
       name  : "Lapikutest"
       url   :  "/aboutus/"
+#    blog:
+#      name  : "Blogi"
+#      url   : "/blog/"
     contact:
       name  : "Kontakt"
       url   :  "/contact/"
@@ -117,6 +126,9 @@ nav:
     aboutus:
       name  : "About"
       url   :  "/en/aboutus/"
+#    blog:
+#      name  : "Blog"
+#      url   : "/en/blog/"
     contact:
       name  : "Contact"
       url   :  "/en/contact/"
